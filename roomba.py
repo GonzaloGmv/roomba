@@ -27,3 +27,24 @@ habitacion.pack()
 mueble = habitacion.create_rectangle(mueble.x0, mueble.y0, mueble.x1, mueble.y1, fill='brown')
 
 root.mainloop()
+
+def area(base, altura):
+    a = base * altura
+    return a
+
+def base(x0, x1):
+    b = x1 - x0
+    return b
+
+def altura(y0, y1):
+    h = y1 - y0
+    return h
+
+base_mueble = base(mueble.x0, mueble.x1)
+altura_mueble = altura(mueble.y0, mueble.y1)
+
+area_habitacion = area(habitacion.width, habitacion.height)
+area_mueble = area(base_mueble, altura_mueble)
+
+area_util = area_habitacion - area_mueble
+
