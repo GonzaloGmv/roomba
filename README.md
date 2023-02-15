@@ -4,7 +4,7 @@ El enlace al repositorio de GitHub de este proyecto es el siguiente: [GitHub](ht
 
 ### Resumen
 
-Para este proyecto hemos realizado un roomba.
+Para este proyecto hemos realizado un roomba que se encuentra en una habitacion con un mueble, y reconoce los obstaculos para limpiar toda la sala de manera optima. Tambien calcula el area barrida.
 
 ### Codigo
 
