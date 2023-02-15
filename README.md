@@ -120,7 +120,9 @@ def main():
 - Main
 
 ```
-
+from lanzador import*
+if "__name__" == "__main__":
+    main()
 ```
 ### Integrantes
 
