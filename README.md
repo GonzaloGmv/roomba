@@ -8,6 +8,7 @@ Para este proyecto hemos realizado un roomba que se encuentra en una habitacion 
 
 ### Codigo
 
+- Roomba
 ```
 from tkinter import *
 
@@ -68,6 +69,17 @@ segundos = int(tiempo % 60)
 print("El tiempo que tardará en limpiar la habitación es de", minutos, "minutos", segundos, "segundos")
 ```
 
+- Lanzador
+
+```
+
+```
+
+- Main
+
+```
+
+```
 ### Integrantes
 
 - Gonzalo Martinez
