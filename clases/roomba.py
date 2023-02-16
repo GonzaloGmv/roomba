@@ -11,15 +11,3 @@ class Mueble:
         self.y0 = y0
         self.x1 = x1
         self.y1 = y1
-
-def area(base, altura):
-    a = base * altura
-    return a
-
-def base(x0, x1):
-    b = x1 - x0
-    return b
-
-def altura(y0, y1):
-    h = y1 - y0
-    return h
