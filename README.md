@@ -14,9 +14,9 @@ Para este proyecto hemos realizado un roomba que se encuentra en una habitacion 
 ### Codigo
 
 - Roomba
-```
-from tkinter import *
 
+Aquí
+```
 class Habitacion:
     def __init__(self, width, height):
         self.width = width
@@ -103,3 +103,14 @@ from lanzador import*
 if __name__ == "__main__":
     main()
 ```
+
+- Ejecución
+
+Una vez el usuario haya dado las coordenas del mueble, se abrirá una interfaz gráfica con la habitación y el mueble creado.
+
+![image](https://user-images.githubusercontent.com/91721237/223156475-942395f1-2f9f-4cd7-b928-ff03b0abf8de.png)
+
+Después, el programa calculará el tiempo que tarda el roomba en limpiar la habitación, teniendo en cuenta el mueble.
+
+![image](https://user-images.githubusercontent.com/91721237/223156774-675b3568-5e79-4475-b897-1000e9c8f898.png)
+
