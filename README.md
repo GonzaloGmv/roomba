@@ -14,9 +14,9 @@ Para este proyecto hemos realizado un roomba que se encuentra en una habitacion 
 ### Codigo
 
 - Roomba
-```
-from tkinter import *
 
+Aquí
+```
 class Habitacion:
     def __init__(self, width, height):
         self.width = width
