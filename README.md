@@ -15,7 +15,6 @@ Para este proyecto hemos realizado un roomba que se encuentra en una habitacion 
 
 - Roomba
 
-Aquí
 ```
 class Habitacion:
     def __init__(self, width, height):
@@ -30,7 +29,7 @@ class Mueble:
         self.y1 = y1
 ```
 
-- Ventana
+- Ventana gráfica
 
 ```
 from tkinter import *
