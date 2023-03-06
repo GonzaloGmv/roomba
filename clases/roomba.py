@@ -1,5 +1,3 @@
-from tkinter import *
-
 class Habitacion:
     def __init__(self, width, height):
         self.width = width
